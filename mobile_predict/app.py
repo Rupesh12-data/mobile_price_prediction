@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import joblib
 
-model = joblib.load("mobile prerdict modelgbr.pkl")
+model = joblib.load("models/mobile prerdict modelgbr.pkl")
 st.title('Mobile Price Prediction ')
 
 st.text('Select Your Requirement to Pridict Mobile Price ')
